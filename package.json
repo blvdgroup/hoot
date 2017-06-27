@@ -1,0 +1,28 @@
+{
+  "name": "hoot",
+  "version": "0.1.0",
+  "description": "hoot hoot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hootrocks/hoot.git"
+  },
+  "author": "blvd",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/hootrocks/hoot/issues"
+  },
+  "homepage": "https://github.com/hootrocks/hoot#readme",
+  "devDependencies": {
+    "cz-blvd": "^0.1.0",
+    "lerna": "^2.0.0-rc.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-blvd"
+    }
+  }
+}
